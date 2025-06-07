@@ -3,6 +3,10 @@ import pickle
 import pandas as pd
 import requests
 
+st.set_page_config(
+    page_title="Movie Recommender",
+    page_icon="🚀"
+)
 
 
 def fetch_poster(movie_id):
